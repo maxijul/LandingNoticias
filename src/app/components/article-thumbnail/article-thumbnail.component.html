@@ -1,0 +1,20 @@
+<div *ngIf="article" >
+   <div class="main" *ngIf="view === 'main'" >
+      <span class="heading">Noticias</span>
+      <img src="../../../assets/Images/{{article.imageName}}" alt="Clima">
+      <h3 class="title">{{ article.title | titlecase }}</h3>
+   </div>
+
+   <div class="other" *ngIf="view === 'other'" >
+    <span class="heading">Ultimas Noticias</span>
+
+    <img src="../../../assets/Images/{{article.imageName}}" alt="">
+
+    <h3 class="title"> {{ article.title | titlecase }} </h3>
+   </div>
+
+   <div class="suggested" *ngIf="view === 'suggested'" >
+
+   </div>
+
+</div>
