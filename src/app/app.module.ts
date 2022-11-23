@@ -8,6 +8,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CategoriesComponent } from './components/categories/categories.component';
 import { HomeComponent } from './components/home/home.component';
 import { ArticleThumbnailComponent } from './components/article-thumbnail/article-thumbnail.component';
+import { CategoryComponent } from './components/category/category.component';
+import { SuggestedArticlesComponent } from './components/suggested-articles/suggested-articles.component';
+import { ArticleDetailsComponent } from './components/article-details/article-details.component';
+import { OpenArticleDirective } from './directives/open-article.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { ArticleThumbnailComponent } from './components/article-thumbnail/articl
     FooterComponent,
     CategoriesComponent,
     HomeComponent,
-    ArticleThumbnailComponent
+    ArticleThumbnailComponent,
+    CategoryComponent,
+    SuggestedArticlesComponent,
+    ArticleDetailsComponent,
+    OpenArticleDirective
   ],
   imports: [
     BrowserModule,

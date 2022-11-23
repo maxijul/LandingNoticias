@@ -16,6 +16,7 @@
    font-style: italic;
    letter-spacing: 8px;
    outline: 1px solid white;
+   user-select: none;
 }
 
 .social-media-links ul {
